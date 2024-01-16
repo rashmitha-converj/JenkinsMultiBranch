@@ -58,7 +58,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Perform testing steps here
-                sh 'echo "second step"'
+                sh 'echo "feature ui "'
                 sh 'pwd'
                 sh 'ls'
             }
