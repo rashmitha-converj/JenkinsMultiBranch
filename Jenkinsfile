@@ -42,6 +42,10 @@
 
 pipeline {
     agent any
+        tools {
+        // Define the npm tool with the desired installation label
+        nodejs "npmToolInstallation"
+    }
 
     stages {
         stage('Build') {
