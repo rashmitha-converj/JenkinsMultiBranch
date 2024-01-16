@@ -54,7 +54,8 @@ pipeline {
                 sh 'whoami'
                 sh 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash'
                 sh 'export NVM_DIR="$HOME/.nvm"'
-                    sh '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"'
+                    sh '[ -s "$NVM_DIR/nvm.sh" ]' 
+                    sh '. "$NVM_DIR/nvm.sh"'
                 sh 'npm install'
                 sh 'npm start'
 
