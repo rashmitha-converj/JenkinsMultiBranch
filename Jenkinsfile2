@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                // Perform build steps here
+                sh 'echo "pr changes"'
+                
+
+            }
+        }
+        
+        
+    }
+}
