@@ -51,6 +51,8 @@ pipeline {
                 sh 'pwd'
                 sh 'touch test.js'
                 sh 'ls'
+                sh 'npm install'
+                sh 'npm start'
 
             }
         }
