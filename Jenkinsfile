@@ -52,6 +52,7 @@ pipeline {
                 sh 'touch test.js'
                 sh 'ls'
                 sh 'whoami'
+                sh 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash'
                 sh 'npm install'
                 sh 'npm start'
 
