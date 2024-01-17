@@ -8,7 +8,7 @@ pipeline {
                     sh 'npm -v'
                     sh 'ls'
                     sh 'npm install'
-                    sh 'npm start'
+                    sh 'npm start &'
                 }
             }
         }
