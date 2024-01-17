@@ -1,8 +1,20 @@
 {
-  "name": "nodejs-express-on-aws-ec2",
-  "version": "0.0.1",
-  "build-dev": "tsc && mkdir -p uploads && mkdir -p dist/templates && mkdir -p dist/fonts && cp -R src/templates/ dist/templates && cp -R src/fonts/ dist/fonts",
-  "dependencies": {
-    "express": "4.17.1"
-  }
+  "name": "node-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpapa/node-hello.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnpapa/node-hello/issues"
+  },
+  "homepage": "https://github.com/johnpapa/node-hello#readme"
 }
